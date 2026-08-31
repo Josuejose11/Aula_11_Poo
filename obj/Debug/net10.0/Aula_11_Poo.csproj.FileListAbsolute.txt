@@ -1,0 +1,15 @@
+C:\Users\josue61477096\Documents\GitHub\Aula_11_Poo\bin\Debug\net10.0\Aula_11_Poo.exe
+C:\Users\josue61477096\Documents\GitHub\Aula_11_Poo\bin\Debug\net10.0\Aula_11_Poo.deps.json
+C:\Users\josue61477096\Documents\GitHub\Aula_11_Poo\bin\Debug\net10.0\Aula_11_Poo.runtimeconfig.json
+C:\Users\josue61477096\Documents\GitHub\Aula_11_Poo\bin\Debug\net10.0\Aula_11_Poo.dll
+C:\Users\josue61477096\Documents\GitHub\Aula_11_Poo\bin\Debug\net10.0\Aula_11_Poo.pdb
+C:\Users\josue61477096\Documents\GitHub\Aula_11_Poo\obj\Debug\net10.0\Aula_11_Poo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josue61477096\Documents\GitHub\Aula_11_Poo\obj\Debug\net10.0\Aula_11_Poo.AssemblyInfoInputs.cache
+C:\Users\josue61477096\Documents\GitHub\Aula_11_Poo\obj\Debug\net10.0\Aula_11_Poo.AssemblyInfo.cs
+C:\Users\josue61477096\Documents\GitHub\Aula_11_Poo\obj\Debug\net10.0\Aula_11_Poo.csproj.CoreCompileInputs.cache
+C:\Users\josue61477096\Documents\GitHub\Aula_11_Poo\obj\Debug\net10.0\Aula_11_Poo.sourcelink.json
+C:\Users\josue61477096\Documents\GitHub\Aula_11_Poo\obj\Debug\net10.0\Aula_11_Poo.dll
+C:\Users\josue61477096\Documents\GitHub\Aula_11_Poo\obj\Debug\net10.0\refint\Aula_11_Poo.dll
+C:\Users\josue61477096\Documents\GitHub\Aula_11_Poo\obj\Debug\net10.0\Aula_11_Poo.pdb
+C:\Users\josue61477096\Documents\GitHub\Aula_11_Poo\obj\Debug\net10.0\Aula_11_Poo.genruntimeconfig.cache
+C:\Users\josue61477096\Documents\GitHub\Aula_11_Poo\obj\Debug\net10.0\ref\Aula_11_Poo.dll

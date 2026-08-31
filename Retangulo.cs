@@ -4,7 +4,6 @@ class Retangulo
 {
     private double altura;
     private double largura;
-    private double area;
 
     public double Altura
     {
@@ -17,7 +16,7 @@ class Retangulo
             }
             else
             {
-                Console.WriteLine("O valor precisa ser um número");
+                Console.WriteLine("O valor precisa ser maior que 0");
             }
         }
     }
@@ -33,33 +32,26 @@ class Retangulo
             }
             else
             {
-                Console.WriteLine("O valor precisa ser um número");
+                Console.WriteLine("O valor precisa ser maior que 0");
             }
         }
     }
- 
+    
     public double Area
     {
-        get {return area;}
-        set
-        {
-            if (value > 0)
-            {
-                area = value;
-            }
-            else
-            {
-                Console.WriteLine("O valor precisa ser um número");
-            }
-        }
+        get {return altura*largura;}
     }
 
     // Construtor
-    public Retangulo (double altura1, double largura1, double area1)
+    public Retangulo (double altura, double largura)
     {
-        altura = altura1; 
-        largura = largura1; 
-        area = area1; 
+        this.altura = altura;
+        this.largura = largura;
     }
 
+    // Tostring
+    public override string ToString()
+    {
+        return "\n===Classe Retangulo===\n| Altura: " + altura + " | Largura: " + largura + " | Área: " + Area ;
+    }
 }
