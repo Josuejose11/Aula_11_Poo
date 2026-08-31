@@ -2,7 +2,7 @@ class Musica
 {
     private string nome;
     private int anoPublicacao;
-    private string autor;
+    private string compositor;
 
     public string Nome
     {
@@ -19,13 +19,12 @@ class Musica
             }
         }
     }
-
     public int AnoPublicacao
     {
         get {return anoPublicacao;}
         set
         {
-            if (value is int)
+            if (value < 2026 && value > 0)
             {
                anoPublicacao = value; 
             }
@@ -35,5 +34,39 @@ class Musica
             }   
         }
     }
+    public string Compositor
+    {
+        get {return compositor;}
+        set
+        {
+            if (value is string)
+            {
+                compositor = value;
+            }
+        }
+    }
 
+    // Construtor
+    public Musica (string nome, int anoPublicacao, string compositor)
+    {
+        this.nome = nome;
+        this.anoPublicacao = anoPublicacao;
+        this.compositor = compositor;
+    }
+
+    // Tostring
+    public override string ToString()
+    {
+        return "\n===Classe Musica===\n| Nome: " + nome + " | Ano de publicação: " + anoPublicacao + " | Compositor: " + compositor ;
+    }
+
+    // Métodos
+    public void Tocar()
+    {
+        Console.WriteLine($"A música {nome} está tocando");
+    }
+    public void Parar()
+    {
+        Console.WriteLine($"A música {nome} parou de tocar");
+    }
 }

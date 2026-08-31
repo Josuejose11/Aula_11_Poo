@@ -37,9 +37,10 @@ class Retangulo
         }
     }
     
-    public double Area
+    //Método área
+    public void CalcularArea()
     {
-        get {return altura*largura;}
+        Console.WriteLine("A área do seu retângulo é: " + altura*largura);
     }
 
     // Construtor
@@ -52,6 +53,6 @@ class Retangulo
     // Tostring
     public override string ToString()
     {
-        return "\n===Classe Retangulo===\n| Altura: " + altura + " | Largura: " + largura + " | Área: " + Area ;
+        return "\n===Classe Retangulo===\n| Altura: " + altura + " | Largura: " + largura + " | Área: " + altura*largura;
     }
 }
